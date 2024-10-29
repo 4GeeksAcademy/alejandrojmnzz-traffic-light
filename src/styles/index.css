@@ -1,12 +1,35 @@
+.traffic-light {
+height: 576px;
+width: 220px;
+background-color: black;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.mount {
+    height: 150px;
+    width: 30px;
+    background-color: black;
+}
 
-*/
+.light {
+height: 173px;
+width: 173px;
+border-radius: 100%;
+margin-top: 15px;
+}
+
+.red {
+    background-color: red;
+}
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
+
+.shadow-light {
+    -webkit-box-shadow: 0px 0px 80px 2px rgba(255,238,0,1);
+-moz-box-shadow: 0px 0px 80px 2px rgba(255,238,0,1);
+box-shadow: 0px 0px 80px 2px rgba(255,238,0,1);
+}
